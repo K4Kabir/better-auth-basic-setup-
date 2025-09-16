@@ -64,7 +64,7 @@ export function LoginForm({
         onError: (ctx) => { toast(ctx.error.message) },
         onSuccess: () => {
           // Your route after login
-          router.push('/profile')
+          router.push('/dashboard')
         }
       }
 
